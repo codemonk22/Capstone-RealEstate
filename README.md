@@ -125,6 +125,6 @@ truffle(develop)>
 ```
 
 
-![Activity diagram](/images/UML_Diagram-01.png)
-![Activity diagram](/images/UML_Diagram-01.png)
+![Activity diagram](/images/truffle-dev-01.png)
+![Activity diagram](/images/truffle-dev-02.png)
 
