@@ -123,3 +123,8 @@ truffle(develop)>
 
 
 ```
+
+
+![Activity diagram](/images/UML_Diagram-01.png)
+![Activity diagram](/images/UML_Diagram-01.png)
+
