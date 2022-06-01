@@ -10,7 +10,7 @@ Error: Cannot find module './uws_linux_arm64_93.node'
 Falling back to a NodeJS implementation; performance may be degraded.
 
 
-Warning: truffle-config.js were found. Using truffle-config.js.
+Warning: Both truffle-config.js and truffle.js were found. Using truffle-config.js.
 Truffle Develop started at http://127.0.0.1:9545/
 
 Accounts:
