@@ -344,10 +344,41 @@ zokrates@01afa6a493df:~/code$
 Contract Addresses :  
 
 * [Verifier](https://rinkeby.etherscan.io/tx/0xd411fea17dbbfbba5950de446b8bd76e901a3a49e986b5aafc2e96f66a596357)
+```
+ Replacing 'Verifier'
+   --------------------
+   > transaction hash:    0xd411fea17dbbfbba5950de446b8bd76e901a3a49e986b5aafc2e96f66a596357
+   > Blocks: 0            Seconds: 12
+   > contract address:    0xdC14Ae2D374Db33BD020bE96d43e60ffa1907E46
+   > block number:        10807274
+   > block timestamp:     1654556431
+   > account:             0xBb108964af881f000EE929bde6881D29a244Ee9B
+   > balance:             1.884191197538675457
+   > gas used:            1444934 (0x160c46)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01444934 ETH
+
+```
 
 ![Activity diagram](/images/Verifier-01.png)
 
 * [SolnSquareVerifier](https://rinkeby.etherscan.io/tx/0xa921055bc26bcd940f57f766d9be82a776882f9669bb028212a841f5c52d41fa)
+```
+   Replacing 'SolnSquareVerifier'
+   ------------------------------
+   > transaction hash:    0xa921055bc26bcd940f57f766d9be82a776882f9669bb028212a841f5c52d41fa
+   > Blocks: 1            Seconds: 16
+   > contract address:    0x14E49F2Cad0C87D6E734B50C7AF899599Dac6582
+   > block number:        10807275
+   > block timestamp:     1654556447
+   > account:             0xBb108964af881f000EE929bde6881D29a244Ee9B
+   > balance:             1.847485977538675457
+   > gas used:            3670522 (0x3801fa)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.03670522 ETH
+```
 
 ![Activity diagram](/images/SolnSq-01.png)
 
