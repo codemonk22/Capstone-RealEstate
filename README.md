@@ -392,9 +392,12 @@ Contract Addresses :
 
 * [Generate OpenSea marketplace](https://opensea.io/collection/collrealestate)
 ![Activity diagram](/images/opensea01.png)
+
 * [Testnets.opensea.io - Contract Address](https://testnets.opensea.io/0xdC14Ae2D374Db33BD020bE96d43e60ffa1907E46?tab=collected)
+
 *  [Testnets.opensea.io - Minted](https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/84611720491837093809779221035027904948600579508400875676632087296439048208385)
 ![Activity diagram](/images/opensea-mint01.png)
+
 * [Testnets.opensea.io - 03](https://opensea.io/0xBb108964af881f000EE929bde6881D29a244Ee9B)
 ![Activity diagram](/images/OS-Cr-01.png)
 
