@@ -128,3 +128,9 @@ truffle(develop)>
 ![Activity diagram](/images/truffle-dev-01.png)
 ![Activity diagram](/images/truffle-dev-02.png)
 
+
+
+
+![Activity diagram](/images/rink-01.png)
+![Activity diagram](/images/rink-02.png)
+
