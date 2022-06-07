@@ -347,6 +347,12 @@ Contract Addresses :
 * [SolnSquareVerifier](https://rinkeby.etherscan.io/tx/0xa921055bc26bcd940f57f766d9be82a776882f9669bb028212a841f5c52d41fa)
 * [Rinkeby Etherscan](https://rinkeby.etherscan.io/address/0xBb108964af881f000EE929bde6881D29a244Ee9B)
 
-Contract Abi's :
 OpenSea MarketPlace Storefront link's :
+
+* [Opensea.io](https://opensea.io/collection/collrealestate)
+* [Testnets.opensea.io - 01](https://testnets.opensea.io/0xdC14Ae2D374Db33BD020bE96d43e60ffa1907E46?tab=collected)
+*  [Testnets.opensea.io - 02](https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/84611720491837093809779221035027904948600579508400875676632087296439048208385)
+* [Testnets.opensea.io - 03](https://opensea.io/0xBb108964af881f000EE929bde6881D29a244Ee9B)
+
+
 
