@@ -2,7 +2,7 @@
 Capstone Realestate Marketplace Developed using Blockchain Technology
 
 ```
-┌──(capstone㉿bcdev05)-[~/Blockchain-Capstone-Real-Estate-Marketplace/eth-contracts]
+┌──(capstone㉿bcdev05)-[~/workspace/Capstone-RealEstate/eth-contracts]
 └─$ truffle develop
 This version of µWS is not compatible with your Node.js build:
 
