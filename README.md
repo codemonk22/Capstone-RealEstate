@@ -137,3 +137,11 @@ truffle(develop)>
 ![Activity diagram](/images/rink-01.png)
 ![Activity diagram](/images/rink-02.png)
 
+- [ ] Implement Zokrates
+- [ ] Using Docker to install and instantiate a Zokrates zkSnarks development environment
+- [ ] Completes the Zokrates proof in square.code by adding the variable names in square.code
+- [ ] Compile program
+- [ ] Trusted setup
+- [ ] Compute witness
+- [ ] Generate Proof
+- [ ] Export Verifier.sol
