@@ -328,6 +328,8 @@ drwxrwxrwx 2     1001     1001  4096 Jun  6 19:45 square
 zokrates@01afa6a493df:~/code$ 
 ```
 
+### Rinkeby Network Deployment
+
 ```
 ┌──(capstone㉿kali)-[~/workspace/Capstone-RealEstate/eth-contracts]
 └─$ truffle migrate --network rinkeby --reset
@@ -336,3 +338,15 @@ zokrates@01afa6a493df:~/code$
 
 ![Activity diagram](/images/rink-01.png)
 ![Activity diagram](/images/rink-02.png)
+
+
+
+Contract Addresses :  
+
+* [Verifier](https://rinkeby.etherscan.io/tx/0xd411fea17dbbfbba5950de446b8bd76e901a3a49e986b5aafc2e96f66a596357)
+* [SolnSquareVerifier](https://rinkeby.etherscan.io/tx/0xa921055bc26bcd940f57f766d9be82a776882f9669bb028212a841f5c52d41fa)
+* [Rinkeby Etherscan](https://rinkeby.etherscan.io/address/0xBb108964af881f000EE929bde6881D29a244Ee9B)
+
+Contract Abi's :
+OpenSea MarketPlace Storefront link's :
+
