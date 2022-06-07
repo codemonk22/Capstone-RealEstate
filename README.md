@@ -1,6 +1,8 @@
 # Capstone-RealEstate
 Capstone Realestate Marketplace Developed using Blockchain Technology
 
+![Activity diagram](/images/truff-Ver01.png)
+
 ```
 ┌──(capstone㉿bcdev05)-[~/workspace/Capstone-RealEstate/eth-contracts]
 └─$ truffle develop
