@@ -146,6 +146,10 @@ Run the zokrates docker image
 └─$ docker run -v $(pwd):/home/zokrates/code -ti zokrates/zokrates:0.3.0 /bin/bash
 ```
 - [ ] Completes the Zokrates proof in square.code by adding the variable names in square.code
+
+![Activity diagram](/images/sqr-set01.png)
+
+- [ ] Compile program
 ```
 zokrates@01afa6a493df:~/code$ ~/zokrates compile -i square/square.code
 Compiling square/square.code
@@ -167,8 +171,6 @@ Compiled code written to 'out'
 Human readable code to 'out.code'
 Number of constraints: 12
 ```
-
-- [ ] Compile program
 - [ ] Trusted setup
 ```
 zokrates@01afa6a493df:~/code$ ~/zokrates setup
@@ -221,5 +223,94 @@ setup successful: true
 zokrates@01afa6a493df:~/code$ 
 ```
 - [ ] Compute witness
+```
+zokrates@01afa6a493df:~/code$ ~/zokrates compute-witness -a 3 9          
+Computing witness for:
+def main(private _2,_3):
+        _4 = (_2 * _2)
+        _5 = (_4 - _3)
+        # _6, _7 = Rust::ConditionEq(_5)
+        _6 == (_5 * _7)
+        _8 = (1 - _6)
+        0 == (_8 * _5)
+        # _9 = Rust::Identity(_8)
+        _10 = (1 - _9)
+        _11 = (_9 * 1)
+        _12 = (_10 * 0)
+        _13 = (_11 + _12)
+        return _13
+
+Witness: 
+
+~out_0 1
+zokrates@01afa6a493df:~/code$ ls -ltr
+total 32
+drwxrwxrwx 2     1001     1001 4096 Jun  6 19:45 square
+-rw-r--r-- 1 zokrates zokrates  246 Jun  6 19:47 out.code
+-rw-r--r-- 1 zokrates zokrates  583 Jun  6 19:47 out
+-rw-r--r-- 1 zokrates zokrates   99 Jun  6 19:48 variables.inf
+-rw-r--r-- 1 zokrates zokrates 2176 Jun  6 19:48 verification.key
+-rw-r--r-- 1 zokrates zokrates 6394 Jun  6 19:48 proving.key
+-rw-r--r-- 1 zokrates zokrates   80 Jun  6 19:51 witness
+```
 - [ ] Generate Proof
+```
+zokrates@01afa6a493df:~/code$ ~/zokrates generate-proof
+Generating proof...
+Using Witness: {"_4": 9, "_9": 1, "_5": 0, "_13": 1, "_2": 3, "_3": 9, "_10": 0, "~out_0": 1, "~one": 1, "_7": 1, "_6": 0, "_12": 0, "_11": 1, "_8": 1}
+Public inputs: [1, 9, 1]
+Private inputs: [3, 9, 0, 1, 0, 1, 1, 0, 1, 0, 1]
+* Elements of w skipped: 3 (33.33%)
+* Elements of w processed with special addition: 4 (44.44%)
+* Elements of w remaining: 2 (22.22%)
+* Elements of w skipped: 1 (33.33%)
+* Elements of w processed with special addition: 1 (33.33%)
+* Elements of w remaining: 1 (33.33%)
+* Elements of w skipped: 4 (36.36%)
+* Elements of w processed with special addition: 5 (45.45%)
+* Elements of w remaining: 2 (18.18%)
+* Elements of w skipped: 4 (30.77%)
+* Elements of w processed with special addition: 6 (46.15%)
+* Elements of w remaining: 3 (23.08%)
+* G1 elements in proof: 7
+* G2 elements in proof: 1
+* Proof size in bits: 2294
+Proof:
+A = Pairing.G1Point(0x2f47881a565b0201736b230747213cf0b9d1182c1f91446a7b123ae847be28c3, 0x2d744a140a569be02da60e4ebb289cebee18d27c0dda16376106fda44d7dbb5b);
+A_p = Pairing.G1Point(0x27541248c9467abb612f305c9c0e1421317582bb689a8a2017524f5b68603f27, 0xe693c9c95a229dd1050f429096b98445a934f28a9a7e324482ecbf3701a7e85);
+B = Pairing.G2Point([0xda9be57ff9d931793073df1706d2d3b5aa1929fda6ab701ad5758435533fcad, 0x12327d462644303be3b268ae89b99ec43f4ae8cdc88a5d3c96e7e861f7897b2e], [0x25de16a48d3c864720cf99272c41bde93ad19d75ba1449bb9abf87c6e393dc0e, 0x196f6c8046689756336da064a643e29ae8157918a7113a50952c8902e40025fa]);
+B_p = Pairing.G1Point(0x7e4bc9b70c68144ced338508e041499a5ca7f1cdb348202ca4c8a5a9acdf2dc, 0x22ecad74909ef9137c0efbfa30eb9b7fc975f71bc727dfd6ec7e3de23a92d894);
+C = Pairing.G1Point(0x2aaf42e9370c539631a1c38243b9caf9fd3896c70bdca6987257e8070ea535cd, 0x3200a38e79dfe4dca1dda8a679f6fc08046a4a5dc14015dbf9cf9717593686b);
+C_p = Pairing.G1Point(0xeb9527fbf5c839fbc2303c5d286f2badb63bf94e82ea0b1566e5d5d150d524e, 0x68c151afe2ed95d32a672e62c2581a2ae1031bf9a0c3b17b487da8032542454);
+H = Pairing.G1Point(0x108ebec9a7a33b96729fa8bc6299126d9c4fd22ff9334c6434c6917758fe0bbd, 0x16f4cae1e5f50aaf4d6c3adf20f652048ef81003bbe0cdf17c71fbeae8838eb9);
+K = Pairing.G1Point(0x37ea9fa6b53eced136fbda820f113ff687a807daf02d10860d446c777df01fb, 0x21fea58f4a07cb7c4f676582286467b127cf5ee71149be0c1309713b3a55e2fd);
+generate-proof successful: true
+zokrates@01afa6a493df:~/code$ ls -ltrt
+total 36
+drwxrwxrwx 2     1001     1001 4096 Jun  6 19:45 square
+-rw-r--r-- 1 zokrates zokrates  246 Jun  6 19:47 out.code
+-rw-r--r-- 1 zokrates zokrates  583 Jun  6 19:47 out
+-rw-r--r-- 1 zokrates zokrates   99 Jun  6 19:48 variables.inf
+-rw-r--r-- 1 zokrates zokrates 2176 Jun  6 19:48 verification.key
+-rw-r--r-- 1 zokrates zokrates 6394 Jun  6 19:48 proving.key
+-rw-r--r-- 1 zokrates zokrates   80 Jun  6 19:51 witness
+-rw-r--r-- 1 zokrates zokrates 1367 Jun  6 19:51 proof.json
+```
 - [ ] Export Verifier.sol
+```
+zokrates@01afa6a493df:~/code$ ~/zokrates export-verifier
+Exporting verifier...
+Finished exporting verifier.
+zokrates@01afa6a493df:~/code$ ls -ltr
+total 48
+drwxrwxrwx 2     1001     1001  4096 Jun  6 19:45 square
+-rw-r--r-- 1 zokrates zokrates   246 Jun  6 19:47 out.code
+-rw-r--r-- 1 zokrates zokrates   583 Jun  6 19:47 out
+-rw-r--r-- 1 zokrates zokrates    99 Jun  6 19:48 variables.inf
+-rw-r--r-- 1 zokrates zokrates  2176 Jun  6 19:48 verification.key
+-rw-r--r-- 1 zokrates zokrates  6394 Jun  6 19:48 proving.key
+-rw-r--r-- 1 zokrates zokrates    80 Jun  6 19:51 witness
+-rw-r--r-- 1 zokrates zokrates  1367 Jun  6 19:51 proof.json
+-rw-r--r-- 1 zokrates zokrates 11425 Jun  6 19:52 verifier.sol
+zokrates@01afa6a493df:~/code$ 
+```
