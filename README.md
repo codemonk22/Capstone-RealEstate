@@ -138,10 +138,25 @@ truffle(develop)>
 ![Activity diagram](/images/rink-02.png)
 
 - [ ] Implement Zokrates
+```
+Install docker and download Zokrates docker image for the supporting OS
+
+┌──(capstone㉿kali)-[~/workspace/Capstone-RealEstate/zokrates]
+└─$ sudo apt update
+┌──(capstone㉿kali)-[~/workspace/Capstone-RealEstate/zokrates]
+└─$ sudo apt install -y docker.io
+┌──(capstone㉿kali)-[~/workspace/Capstone-RealEstate/zokrates]
+└─$ sudo systemctl enable docker --now
+┌──(capstone㉿kali)-[~/workspace/Capstone-RealEstate/zokrates]
+└─$ sudo usermod -aG docker $USER
+```
 - [ ] Using Docker to install and instantiate a Zokrates zkSnarks development environment
 Run the zokrates docker image 
 
 ```
+┌──(capstone㉿kali)-[~/workspace/Capstone-RealEstate/zokrates]
+└─$ cd code
+
 ┌──(capstone㉿kali)-[~/workspace/Capstone-RealEstate/zokrates/code]
 └─$ docker run -v $(pwd):/home/zokrates/code -ti zokrates/zokrates:0.3.0 /bin/bash
 ```
