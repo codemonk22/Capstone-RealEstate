@@ -1,7 +1,7 @@
 # Capstone-RealEstate
 ### Capstone Realestate Marketplace DAPP developed using Blockchain Technology
 
-Final project for Blockchain NanoDegree that necessitates the creation of own tokens to represent property titles. Before minting the token, the owner must confirm that she or he is the rightful owner of the property. A zk-SNARKs (zoKrates) technique will be utilized to develop a verification system that can confirm property ownership without revealing any specific information about the property. The token will be listed on a blockchain market place (OpenSea) for others to buy once it has been confirmed.
+Final project for Blockchain NanoDegree that necessitates the creation of own tokens to represent property titles. Before minting the token, the owner must confirm that she or he is the rightful owner of the property. A zk-SNARKs (zoKrates) technique will be utilized to develop a verification system that can confirm property ownership without revealing any specific information about the property - <b>Zero knowledge proof technique</b>. The token will be listed on a blockchain market place (OpenSea) for others to buy once it has been confirmed.
 
 ### Truffle Suite Version
 
