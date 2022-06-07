@@ -336,10 +336,6 @@ Contract Addresses :
 * [Docker](https://docs.docker.com/install/)
 * [ZoKrates](https://github.com/Zokrates/ZoKrates)
 
-## License
-
-This project is licensed under the MIT License 
-
 # Project Resources
 
 * [Remix - Solidity IDE](https://remix.ethereum.org/)
@@ -354,6 +350,11 @@ This project is licensed under the MIT License
 ## Authors
 
 * **Shan PB** - [Shan PB Github](https://github.com/codemonk22)
+
+## License
+
+This project is licensed under the MIT License 
+
 
 
 
