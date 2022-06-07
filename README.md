@@ -131,7 +131,6 @@ truffle(develop)>
 ```
 ┌──(capstone㉿kali)-[~/workspace/Capstone-RealEstate/eth-contracts]
 └─$ truffle migrate --network rinkeby --reset
-
 ```
 
 
