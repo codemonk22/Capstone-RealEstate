@@ -132,8 +132,10 @@ truffle(develop)>
 ![Activity diagram](/images/truffle-dev-01.png)
 ![Activity diagram](/images/truffle-dev-02.png)
 
+### Steps involved in generating the proof from zokrates
 
 - [ ] Implement Zokrates
+
 ```
 Install docker and download Zokrates docker image for the supporting OS
 
