@@ -128,7 +128,11 @@ truffle(develop)>
 ![Activity diagram](/images/truffle-dev-01.png)
 ![Activity diagram](/images/truffle-dev-02.png)
 
+```
+┌──(capstone㉿kali)-[~/workspace/Capstone-RealEstate/eth-contracts]
+└─$ truffle migrate --network rinkeby --reset
 
+```
 
 
 ![Activity diagram](/images/rink-01.png)
