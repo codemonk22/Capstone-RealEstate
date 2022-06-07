@@ -401,5 +401,16 @@ Contract Addresses :
 * [Testnets.opensea.io - 03](https://opensea.io/0xBb108964af881f000EE929bde6881D29a244Ee9B)
 ![Activity diagram](/images/OS-Cr-01.png)
 
+# Project Resources
+
+* [Remix - Solidity IDE](https://remix.ethereum.org/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Truffle Framework](https://truffleframework.com/)
+* [Ganache - One Click Blockchain](https://truffleframework.com/ganache)
+* [Open Zeppelin ](https://openzeppelin.org/)
+* [Interactive zero knowledge 3-colorability demonstration](http://web.mit.edu/~ezyang/Public/graph/svg.html)
+* [Docker](https://docs.docker.com/install/)
+* [ZoKrates](https://github.com/Zokrates/ZoKrates)
+
 
 
