@@ -128,14 +128,6 @@ truffle(develop)>
 ![Activity diagram](/images/truffle-dev-01.png)
 ![Activity diagram](/images/truffle-dev-02.png)
 
-```
-┌──(capstone㉿kali)-[~/workspace/Capstone-RealEstate/eth-contracts]
-└─$ truffle migrate --network rinkeby --reset
-```
-
-
-![Activity diagram](/images/rink-01.png)
-![Activity diagram](/images/rink-02.png)
 
 - [ ] Implement Zokrates
 ```
@@ -329,3 +321,12 @@ drwxrwxrwx 2     1001     1001  4096 Jun  6 19:45 square
 -rw-r--r-- 1 zokrates zokrates 11425 Jun  6 19:52 verifier.sol
 zokrates@01afa6a493df:~/code$ 
 ```
+
+```
+┌──(capstone㉿kali)-[~/workspace/Capstone-RealEstate/eth-contracts]
+└─$ truffle migrate --network rinkeby --reset
+```
+
+
+![Activity diagram](/images/rink-01.png)
+![Activity diagram](/images/rink-02.png)
