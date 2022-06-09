@@ -327,21 +327,20 @@ Contract Addresses :
 
 [OpenSea Token Listing](https://testnets.opensea.io/collection/ss-erc721mintabletoken-u5ysc3wtyh)
 
-[Minted Token - 01](rinkeby.opensea.io/assets/0x14E49F2Cad0C87D6E734B50C7AF899599Dac6582/56)
-
+* [Minted Token - 01](https://rinkeby.opensea.io/assets/0x14E49F2Cad0C87D6E734B50C7AF899599Dac6582/56)<br>
 [Rinkeby Ethscan Token - 01](https://rinkeby.etherscan.io/tx/0xc387c3ab3b4f424d0feb3a1a17cca7276f64f452e163a5556b4389d5e6b95c35)
 
 
-[Minted Token - 02](rinkeby.opensea.io/assets/0x14E49F2Cad0C87D6E734B50C7AF899599Dac6582/57)<br>
+* [Minted Token - 02](rinkeby.opensea.io/assets/0x14E49F2Cad0C87D6E734B50C7AF899599Dac6582/57)<br>
 [Rinkeby Ethscan Token - 02](https://rinkeby.etherscan.io/tx/0xdc5d601f4a9f6254a1d53ba0d97d0ec9e2a41d7c1e83ee4893c2e447951d7d5f)
 
-[Minted Token - 03](rinkeby.opensea.io/assets/0x14E49F2Cad0C87D6E734B50C7AF899599Dac6582/58)<br>
+* [Minted Token - 03](https://rinkeby.opensea.io/assets/0x14E49F2Cad0C87D6E734B50C7AF899599Dac6582/58)<br>
 [Rinkeby Ethscan Token - 03](https://rinkeby.etherscan.io/tx/0x99170055c3e0189695028a382b74c555e7ca2870b14594601a598125cdcb86c6)
 
-[Minted Token - 04](rinkeby.opensea.io/assets/0x14E49F2Cad0C87D6E734B50C7AF899599Dac6582/59)<br>
+* [Minted Token - 04](https://rinkeby.opensea.io/assets/0x14E49F2Cad0C87D6E734B50C7AF899599Dac6582/59)<br>
 [Rinkeby Ethscan Token - 04](https://rinkeby.etherscan.io/tx/0xb043d39ce71cb239b8e6456be167d5e950b8bc7a664c6ade6528fde52a8be23a)
 
-[Minted Token - 05](rinkeby.opensea.io/assets/0x14E49F2Cad0C87D6E734B50C7AF899599Dac6582/60)<br>
+* [Minted Token - 05](https://rinkeby.opensea.io/assets/0x14E49F2Cad0C87D6E734B50C7AF899599Dac6582/60)<br>
 [Rinkeby Ethscan Token - 05](https://rinkeby.etherscan.io/tx/0x666e0d41f7a974abd69636acc3989c87f2e83b06e4990e434ce547bd862a38eb)
 
 
