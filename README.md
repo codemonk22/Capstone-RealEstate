@@ -323,9 +323,9 @@ Contract Addresses :
 * [Testnets.opensea.io - 03](https://opensea.io/0xBb108964af881f000EE929bde6881D29a244Ee9B)
 ![Activity diagram](/images/OS-Cr-01.png)
 
-### OpenSea Token List link's :
+### OpenSea Tokens List link's :
 
-[OpenSea Token Listing](https://testnets.opensea.io/collection/ss-erc721mintabletoken-u5ysc3wtyh)
+[OpenSea Tokens Listing](https://testnets.opensea.io/collection/ss-erc721mintabletoken-u5ysc3wtyh)
 
 * [Minted Token - 01](https://rinkeby.opensea.io/assets/0x14E49F2Cad0C87D6E734B50C7AF899599Dac6582/56)<br>
 [Rinkeby Ethscan Token - 01](https://rinkeby.etherscan.io/tx/0xc387c3ab3b4f424d0feb3a1a17cca7276f64f452e163a5556b4389d5e6b95c35)
