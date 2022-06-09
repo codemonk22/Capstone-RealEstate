@@ -325,10 +325,12 @@ Contract Addresses :
 
 ### OpenSea Token List link's :
 
-https://testnets.opensea.io/collection/ss-erc721mintabletoken-u5ysc3wtyh
+[OpenSea Token Listing](https://testnets.opensea.io/collection/ss-erc721mintabletoken-u5ysc3wtyh)
 
-[Minted Token - 01](rinkeby.opensea.io/assets/0x14E49F2Cad0C87D6E734B50C7AF899599Dac6582/56)<br>
+[Minted Token - 01](rinkeby.opensea.io/assets/0x14E49F2Cad0C87D6E734B50C7AF899599Dac6582/56)
+
 [Rinkeby Ethscan Token - 01](https://rinkeby.etherscan.io/tx/0xc387c3ab3b4f424d0feb3a1a17cca7276f64f452e163a5556b4389d5e6b95c35)
+
 
 [Minted Token - 02](rinkeby.opensea.io/assets/0x14E49F2Cad0C87D6E734B50C7AF899599Dac6582/57)<br>
 [Rinkeby Ethscan Token - 02](https://rinkeby.etherscan.io/tx/0xdc5d601f4a9f6254a1d53ba0d97d0ec9e2a41d7c1e83ee4893c2e447951d7d5f)
