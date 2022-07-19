@@ -312,7 +312,7 @@ Contract Addresses :
 
 ### OpenSea MarketPlace Storefront link's :
 
-* [Generate OpenSea marketplace](https://opensea.io/collection/collrealestate)
+* [Generate OpenSea marketplace](https://testnets.opensea.io/BC-Capstone-01)
 ![Activity diagram](/images/opensea01.png)
 
 * [Testnets.opensea.io - Contract Address](https://testnets.opensea.io/0xdC14Ae2D374Db33BD020bE96d43e60ffa1907E46?tab=collected)
